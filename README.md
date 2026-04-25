@@ -42,7 +42,7 @@ Created by Yiwen Song - Postdoc at Penn State University.
 
 ## Preview
 
-![Optical Table Layout preview](public/images/optical-table-layout-preview.png)
+![Optical Table Layout preview](public/images/optical-table-layout-screenshot.png)
 
 The preview image is an actual screenshot of the 2D layout interface.
 

@@ -17,7 +17,7 @@ Use it online at [labtools.studio/optics-layout](https://labtools.studio/optics-
 
 ![Optical Table Layout hero](public/images/optical-table-layout-hero.png)
 
-The images in this README are AI-generated demonstration images. The actual app is a 2D optical table layout planner, not a 3D renderer or optical simulation package.
+The hero image in this README is AI-generated for demonstration purposes. The actual app is a 2D optical table layout planner, not a 3D renderer or optical simulation package.
 
 Optical Table Layout is a lightweight browser-based layout design tool for university labs. It helps plan optical table and breadboard layouts, organize parts, sketch beam paths, and export planning artifacts before assembling a setup in the lab.
 
@@ -44,7 +44,7 @@ Created by Yiwen Song - Postdoc at Penn State University.
 
 ![Optical Table Layout preview](public/images/optical-table-layout-preview.png)
 
-Preview images are illustrative only. Use the live app to see the actual 2D layout interface.
+The preview image is an actual screenshot of the 2D layout interface.
 
 ## Who It Is For
 

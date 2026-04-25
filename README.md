@@ -50,7 +50,7 @@ The preview image is an actual screenshot of the 2D layout interface.
 
 Optical Table Layout is intended for research groups, teaching labs, and student projects that need a practical way to sketch table layouts and keep purchasing/layout notes together. It is useful for early planning, lab communication, and setup documentation.
 
-Use the generated layout and BOM as planning aids only. Verify dimensions, part compatibility, mounting constraints, safety requirements, and optical performance with the original vendor documentation and appropriate optical analysis.
+Use the generated layout and BOM as planning aids only. Catalog prices and estimated totals may be incomplete, stale, region-dependent, or otherwise inaccurate; check current pricing and availability with the actual vendor before purchasing. Verify dimensions, part compatibility, mounting constraints, safety requirements, and optical performance with the original vendor documentation and appropriate optical analysis.
 
 ## Development
 

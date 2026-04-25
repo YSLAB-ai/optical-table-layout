@@ -1,0 +1,22 @@
+[
+  {
+    "vendor": "Thorlabs",
+    "url": "https://www.thorlabs.com/newgrouppage9.cfm?pn=POLARIS-K1E3",
+    "fixturePath": "scripts/vendor/fixtures/thorlabs-polaris-k1e3.html"
+  },
+  {
+    "vendor": "Newport",
+    "url": "https://www.newport.com/p/M-U100",
+    "fixturePath": "scripts/vendor/fixtures/newport-m-u100.html"
+  },
+  {
+    "vendor": "Coherent",
+    "url": "https://www.coherent.com/lasers/femtosecond-lasers/monaco",
+    "fixturePath": "scripts/vendor/fixtures/coherent-monaco.html"
+  },
+  {
+    "vendor": "Light Conversion",
+    "url": "https://lightcon.com/product/carbide-cb5/?sku=CB5",
+    "fixturePath": "scripts/vendor/fixtures/light-conversion-carbide.html"
+  }
+]

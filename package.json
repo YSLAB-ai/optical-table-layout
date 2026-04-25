@@ -1,0 +1,53 @@
+{
+  "name": "optical-table-layout",
+  "version": "0.0.0",
+  "description": "A lightweight browser-based optical table layout design tool for university labs.",
+  "author": "Yiwen Song",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "sync:thorlabs:sitemap": "node scripts/sync-thorlabs-sitemap.mjs",
+    "sync:thorlabs:catalog": "node scripts/sync-thorlabs-sitemap.mjs",
+    "sync:newport:sitemap": "node scripts/sync-newport-sitemap.mjs",
+    "sync:vendors:snapshot": "node scripts/sync-vendor-links.mjs --input scripts/vendor/sample-product-pages.json --out src/data/generated/vendorSnapshot.ts --catalog-index-out public/catalog/vendorCatalogIndex.json",
+    "sync:catalog:weekly": "node scripts/publish-catalog.mjs --input scripts/vendor/sample-product-pages.json --out src/data/generated/vendorSnapshot.ts --catalog-index-out public/catalog/vendorCatalogIndex.json --sitemap-out .catalog-cache/thorlabs-catalog.json --newport-out .catalog-cache/newport-catalog.json --max-pages 5000 --newport-max-pages 1024",
+    "sync:vendors:weekly": "npm run sync:catalog:weekly",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "konva": "^10.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-konva": "^19.2.3",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^24.12.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "@vitest/ui": "^4.1.2",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "jsdom": "^29.0.1",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.57.0",
+    "vite": "^8.0.1",
+    "vitest": "^4.1.2"
+  }
+}
